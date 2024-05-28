@@ -1,0 +1,19 @@
+;
+; BIND zone file for 192.168.1.xxx
+;
+
+$TTL    3D
+@       IN      SOA     ns.redes.local.    root.redes.local. (
+                        1               ; serial
+                        8H              ; refresh
+                        2H              ; retry
+                        4W              ; expire
+                        1D )            ; minimum
+;
+                NS      ns.redes.local.    ; Nameserver address
+
+100             PTR     server.redes.local.
+100             PTR     ns.redes.local.
+100             PTR     mail.redes.local.
+101             PTR     virtual.redes.local.
+1               PTR     router.redes.local.
