@@ -2,11 +2,13 @@
 // Do any local configuration here
 //
 
+// Zona Local
 zone "redes.local" {
     type master;
     file "/etc/bind/db.redes.local";
 };
 
+// Zona Reversa
 zone "1.168.192.in-addr.arpa" {
     type master;
     file "/etc/bind/db.1.168.192";
