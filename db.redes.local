@@ -16,7 +16,7 @@ $TTL    3D
 ns              A       192.168.1.100
 mail            A       192.168.1.100
 
-home.local.     A       192.168.1.100
+redes.local.    A       192.168.1.100
 server          A       192.168.1.100
 
 virtual         A       192.168.1.101
